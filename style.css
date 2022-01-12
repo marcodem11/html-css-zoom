@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  
+  a, li{
+    text-decoration: none;
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+
+  body{
+    background-color: black;
+  }
+  .main-content{
+    max-width: 1024px;
+    margin: 0 auto;
+    min-height: 90vh;
+    padding-bottom: 5px;
+    display: flex;
+    row-gap: 8px;
+    column-gap: 3px;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .pics-profile{
+    max-width: 140px;
+    position: relative;
+  }
+  
+  .name-profile{
+    color: white;
+    padding: 2px;
+    background-color: rgba(221, 221, 221,0.5);
+    font-size: 12px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    font-size: 8px;
+  }
+  
+  
+  .tools-bar{
+    min-height: 10vh;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+    color: #666;
+  }
+  
+  .tools-elements{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  .icon, .icon-share{
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .icon:hover, .chevron:hover{
+    color: white;
+  }
+  
+  .chevron{
+    font-size: 10px;
+    align-self: center;
+    cursor: pointer;
+  }
+  
+  .text-icon, .text-icon-share{
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .share{
+    color:darkgreen;
+  }
+  
+  .share:hover{
+    color: #4BC800;
+  }
+  
+  .end-btn{
+    color: red;
+    padding: 28px 10px;
+    height: 100%;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .end-btn:hover{
+    background-color: #4A4A4A;
+  }
